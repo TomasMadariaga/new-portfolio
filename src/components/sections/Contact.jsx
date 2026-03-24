@@ -68,7 +68,7 @@ export const Contact = () => {
           <div className="flex justify-end">
             <button
               type="submit"
-              className="px-6 py-3 bg-accent text-white rounded-lg hover:opacity-90 transition font-medium"
+              className="px-6 py-3 rounded-lg hover:opacity-90 transition-all duration-200 hover:bg-accent hover:text-bg font-medium border border-accent text-accent"
             >
               Send message →
             </button>
