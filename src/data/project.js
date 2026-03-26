@@ -8,9 +8,9 @@ export const projects = [
     id: 1,
     title: "Shortener",
     description:
-      "REST API for URL shortening with rate limiting, Redis caching, and redirect handling. Frontend built with React and Tailwind.",
+      "Full-stack URL shortener with authentication, custom slugs, click tracking, and detailed analytics dashboard.",
     tech: ["React", "Tailwind", "Node.js", "Express", "Prisma", "MySQL"],
-    link: "https://shortener-ar.vercel.app/",
+    link: "https://shr-t.vercel.app/",
     github: "https://github.com/TomasMadariaga/shortener_frontend",
     image: shortener,
   },
