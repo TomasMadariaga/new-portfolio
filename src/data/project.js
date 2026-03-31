@@ -1,8 +1,3 @@
-import cruz_patagonia from "../../public/images/projects/cruz-patagonia.webp";
-import password_generator from "../../public/images/projects/password-generator.webp"
-import shortener from "../../public/images/projects/shortener.webp"
-import ecommerce from "../../public/images/projects/ecommerce.webp"
-
 export const projects = [
   {
     id: 1,
@@ -12,17 +7,17 @@ export const projects = [
     tech: ["React", "Tailwind", "Node.js", "Express", "Prisma", "MySQL"],
     link: "https://shr-t.vercel.app/",
     github: "https://github.com/TomasMadariaga/shortener_frontend",
-    image: shortener,
+    image: "/images/projects/shortener.webp",
   },
   {
     id: 2,
-    title: "Password Generator",
+    title: "passGen",
     description:
       "React-based password generator with real-time strength indicator. Features user accounts, saved passwords vault, and copy-to-clipboard functionality. Backend with NestJS and MySQL.",
     tech: ["React", "Tailwind", "NestJS", "TypeORM", "MySQL"],
-    link: "https://password-generator-ar.vercel.app/",
+    link: "https://passgen-ar.vercel.app/",
     github: "https://github.com/TomasMadariaga/password_frontend",
-    image: password_generator,
+    image: "images/projects/passgen.webp",
   },
   {
     id: 3,
@@ -32,7 +27,7 @@ export const projects = [
     tech: ["React", "Tailwind", "NestJS", "TypeORM", "MySQL"],
     link: "#",
     github: "#",
-    image: cruz_patagonia,
+    image: "images/projects/cruz-patagonia.webp",
   },
   {
     id: 4,
@@ -40,8 +35,8 @@ export const projects = [
     description:
       "PC component store built with Next.js, and Strapi. Features real-time stock management, category filtering, payment integration, and order tracking.",
     tech: ["Next.js", "Tailwind", "TypeScript", "Strapi", "PostgreSQL"],
-    link: "https://ecommerce-tech-three.vercel.app/",
+    link: "https://componentify-app.vercel.app/",
     github: "https://github.com/TomasMadariaga/ecommerce-tech-frontend",
-    image: ecommerce,
+    image: "images/projects/componentify.webp",
   },
 ];
